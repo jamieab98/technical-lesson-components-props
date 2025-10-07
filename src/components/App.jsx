@@ -9,7 +9,7 @@ console.log(user);
 function App() {
   return (
     <div>
-      <NavBar />
+      <Navbar />
       <Home />
       <About />
     </div>
