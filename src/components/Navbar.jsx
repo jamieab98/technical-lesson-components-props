@@ -1,12 +1,15 @@
 import React from "react";
 
-function NavBar() {
+function Navbar() {
 
     return (
         <div id = "navbar">
-            Navbar!
+            <nav>
+                <a href = "#home">Home</a>
+                <a href = "#about">About</a>
+            </nav>
         </div>
     );
 }
 
-export default NavBar;
+export default Navbar;

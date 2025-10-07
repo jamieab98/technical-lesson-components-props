@@ -5,8 +5,10 @@ function About() {
     
     return(
         <div id = "about">
-            About!
-            <Links/>
+            <h2>About Me</h2>
+            <p>{bio}</p>
+            <img src = "https://i.imgur.com/mV8PQxj.gif" alt = "I made this" />
+            <Links github = {links.github} linkedin = {links.linkedin}/>
         </div>
     );
 }

@@ -4,7 +4,9 @@ function Home() {
 
     return (
         <div id = "home">
-            Home!
+            <h1 style ={{color: color}}>
+                {name} is a Web Developer from {city}
+            </h1>
         </div>
     );
 }
